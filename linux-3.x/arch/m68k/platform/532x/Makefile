@@ -1,0 +1,20 @@
+#
+# Makefile for the m68knommu linux kernel.
+#
+
+#
+# If you want to play with the HW breakpoints then you will
+# need to add define this,  which will give you a stack backtrace
+# on the console port whenever a DBG interrupt occurs. You have to
+# set up you HW breakpoints to trigger a DBG interrupt:
+#
+# ccflags-y := -DTRAP_DBG_INTERRUPT
+# asflags-y := -DTRAP_DBG_INTERRUPT
+#
+
+asflags-$(CONFIG_FULLDEBUG) := -DDEBUGGER_COMPATIBLE_CACHE=1
+
+obj-y := config.o gpio.o
+obj-$(CONFIG_SPI_COLDFIRE) += spi-mcf532x.o
+obj-$(CONFIG_USB_MCF532x) += usb-mcf532x.o
+obj-$(CONFIG_LEDS_UC53281) += uC53281-leds.o
