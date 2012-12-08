@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 if [ -d moonshine ] ; then
 	cd moonshine ; git pull
