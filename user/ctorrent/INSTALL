@@ -1,6 +1,0 @@
-How to install:
-
-$ ./configure
-$ make install
-$ hash
-$ ctorrent -h

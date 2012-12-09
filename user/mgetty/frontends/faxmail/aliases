@@ -1,2 +1,0 @@
-# mail->fax gateway for Peter Delaney
-fax-angelika:	"|/usr/local/lib/mgetty+sendfax/faxmail 28664421" gert

@@ -1,6 +1,0 @@
-#
-# system functions
-#
-
-select database(),user() like "%@%";
-select version()>="3.23.29";

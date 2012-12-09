@@ -1,7 +1,0 @@
-create
-
-&DIR&/test.log {
-    monthly
-    rotate 1
-    olddir &DIR&/testdir
-}

@@ -1,2 +1,0 @@
-- w3cam: brithness, saturation
-- cgi-path

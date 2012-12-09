@@ -1,2 +1,0 @@
-DROP TABLE voipcalltermtariff;
-DROP SEQUENCE voipcalltermtariff_id_seq;

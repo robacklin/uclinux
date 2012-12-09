@@ -1,2 +1,0 @@
-SHOW STATUS LIKE 'SSL%';
-Variable_name	Value
