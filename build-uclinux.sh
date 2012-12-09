@@ -19,7 +19,7 @@ ms_find_replace_gnueabi() {
 
 #ms_git_pull git://github.com/robacklin/uclinux-freeswan.git freeswan
 #ms_git_pull git://github.com/robacklin/uclinux-glibc.git glibc
-#ms_git_pull git://github.com/robacklin/uclinux-linux-2.0.x.git linux-2.0.x
+ms_git_pull git://github.com/robacklin/uclinux-linux-2.0.x.git linux-2.0.x
 #ms_git_pull git://github.com/robacklin/uclinux-linux-2.4.x.git linux-2.4.x
 #ms_git_pull git://github.com/robacklin/uclinux-linux-3.x.git linux-3.x
 #ms_git_pull git://github.com/robacklin/uclinux-openswan.git openswan
