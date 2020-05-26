@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: gcc
+      run: cmake --version
     - name: configure
       run: make config
 
